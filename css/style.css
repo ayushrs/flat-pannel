@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Arimo", sans-serif;
+    font-weight: bolder;
+}
+p{
+font-family: "Comic Neue", cursive;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+.banner-section{
+    background-image: url(../images/hero-bg.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 140vh;
+    position: relative;
+}
+.hero-content-2 {
+    margin-bottom: 55px;
+}
+.hero-content-2 h2 {
+    font-size: 52px;
+    line-height: 68px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.hero-content-2 p {
+    font-size: 16px;
+    color: #ffffff;
+}
+.image2 {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-container{
+        animation: bounce 1s infinite alternate;
+        display: flex;
+        justify-content: center;
+}
+.image-holder{
+    animation: bounce 1s infinite alternate;
+    justify-content: center;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+.section-title {
+    padding-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 38px;
+    line-height: 48px;
+    color: #3C368C;
+    font-weight: 700;
+}
+.features-wrap {
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 50px;
+}
+.feature-thumb {
+    position: absolute;
+    left: 0;
+}
+/* .feature-thumb img {
+    border-radius: 50%;
+} */
+.feature-content {
+    position: relative;
+    top: 12px;
+}
+.feature-content h6 {
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.feature-content h5 {
+    font-size: 24px;
+    color: #3C368C;
+    font-weight: 600;
+}
+
+
+
+
+
+.process-area{
+    background-image: url(../images/progress-bg.svg);
+    background-size: cover;
+    background-position: top center;
+}
+.section-title {
+    padding-bottom: 30px;
+}
+
+
+
+.single-feature {
+    margin-bottom: 40px;
+}
+
+.single-feature p {
+    font-size: 19px;
+    line-height: 30px;
+    color: #3C368C;
+    font-weight: 600;
+}
+.angleindouble.color-2 {
+    background-color: #FEAC01;
+    color: #000000;
+    font-weight: 700;
+}
+.buttonfx {
+    background: transparent;
+    padding: 10px 32px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 0.5s;
+    font-size: 14px;
+    z-index: 4;
+    text-decoration: none;
+}
+.text-right {
+    text-align: center!important;
+}
+
+.cart-area .table-responsive thead th {
+    border: 1px solid #D3CBE2;
+}
+.cart-area .table-responsive tbody tr td {
+    border: 1px solid #D3CBE2;
+    vertical-align: middle;
+    text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+.pt-120pb-90 {
+    padding: 120px 0 90px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+.pt-110 {
+    padding-top: 110px;
+}
+.techinical-area{
+    position: relative;
+}
+.pt-118pb-95 {
+    padding: 118px 0 95px;
+}
+
+.single-techinical h4 {
+    font-size: 1.3rem;
+}
+.img-cntnt h2 {
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 853px) {
+    .banner-section {
+        height: 60vh;
+    }
+    .pt-118pb-95 {
+        padding: 28px 0 0px;
+    }
+    .hero-content-2 h2 {
+        font-size: 42px;
+        line-height: 58px;
+    }
+  }
+  
+
+  /* @media only screen and (max-width: 600px) {
+    .features-wrap {
+        position: relative;
+        padding-left: 10px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin-top: 50px;
+        gap: 10px;
+    }
+    .feature-thumb {
+        position: absolute;
+        left: 130px;
+        top: -70px;
+    }
+  } */
+
+  tr td:first-child {
+    font-weight: bold;
+}
+.section-title h2 {
+    font-size: 38px;
+    line-height: 48px;
+    color: #3C368C;
+    font-weight: bolder;
+}
+
+.section-title {
+    border-radius: 53px;
+    background: #fdfdfd;
+    box-shadow: 0px 10px 30px #ede6e6, -30px -30px 60px #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+th {
+    color: #45358c;
+}
+
+.single-feature {
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgb(42 48 122 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5px;
+}
+
+
+
+
+/* ..//footer... */
+
+.site-footer .logo{
+    max-width: 180px;
+}
+.site-footer{
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* .site-footer {
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 20s infinite;
+  }
+  
+  @keyframes bg-animation {
+    0% {
+      background-position: left;
+    }
+    50% {
+      background-position: right;
+    }
+    100% {
+      background-position: left;
+    }
+  }
+
+  :root {
+    --gradient: linear-gradient(-45deg, hwb(258 3% 27%), #a248ec, #371692, #0ea5e9);
+  } */
+
+
+  .align-cntr {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btn-circle.btn-sm {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1em;
+}
+.btn-2 {
+    color: #fff;
+    background-color: #646f79;
+    border-color: #646f79;
+}
+.social-mrge a{
+    text-decoration: none !important;
+    font-size: 20px;
+}
+.social-mrge a i{
+    text-decoration: none !important;
+    font-size: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    color: #3C368C;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
